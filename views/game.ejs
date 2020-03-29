@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <h1>Place Your Bets</h1>
+    <h1 class = "gameH1">Place Your Bets</h1>
+        <span id="wallet">50000</span>
        <form action="">
-            <!-- <label for="">Pick a Color</label>
-            <select name="" id="userColor">
-              <option value="0">Black</option>
-              <option value="1">Red</option>
-            </select> -->
-            <label for="">Choose Your Bet</label>
+           
+            <label for="">Enter Bet Amount</label>
             <input type="number" name="" id="playerBet">
-            <select name="" id="userNum">
+            <label for="pick">Choose Color or Number</label>
+            <select name="pick" id="userNum">
                 <option value="0">1</option>
                 <option value="1">2</option>
                 <option value="2">3</option>
@@ -61,36 +60,21 @@
 
             </select>
             
-            <!-- <label for="">Bet Amount</label>
-            <select name="betDrop" id="userBetAmount">
-              <option value="50">50</option>
-              <option value="100">100</option>
-              <option value="1000">1000</option>
-              <option value="5000">5,000</option>
-              <option value="10000">10,000</option>
-            </select> -->
+     
             <button type="button" id="betColors">Play Colors</button>
             <button type="button" id="spinRoulette">Play Roulette</button>
-            <span id="wallet">50000</span>
+           
       </form> 
+      <span>How to Play?</span>
+      <ul>
+          <li>Select Bet amount</li>
+          <li>Select either a number, a color, or both</li>
+          <li>Press "Play Colors" or "Play Roulette</li>
+      </ul>
       
       
       <span id="displayWinResult"></span>
-<!-- <div class="container">
 
-    <div class="jumbotron text-center">
-        <h1>Let's Play Roulette</h1>
-        <img src="img/savage21.jpg" alt="21 Savage Profile Photo">
-
-        <p>Login or Signup:</p>
-
-        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
-        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
-
-    </div>
-    <a href="/game"><button>Go to Game!</button></a>
-</div> -->
-<!-- <a href="/"><button>Go to Game!</button></a> -->
 <script src="main.js"></script>
 </body>
 </html>

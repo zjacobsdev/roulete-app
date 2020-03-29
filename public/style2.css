@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  text-align: center;
+}
+input{
+  background-color: black;
+  color: antiquewhite;
+  text-align: center ;
+  width: 20%;
+  height: 50px ;
+  border-radius: 5px;
+  margin: 30px;
+}
+select{
+  display: block;
+  margin-left: 40%;
+  background-color: black;
+  color: antiquewhite;
+  width: 20%;
+  height: 50px ;
+  border-radius: 5px;
+  text-align-last: center;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+label{
+  display: block;
+}
+li{
+  list-style: none;
+  font-size: 2rem;
+}button{
+  height: 50px;
+  width: 10%;
+  margin-left: 20px;
+}
+span{
+  font-size: 1.8rem;
+}
+#wallet{
+  font-size: 6rem;
+}

@@ -1,7 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
 body{
-  padding-top:80px;
+  background-color: black;
+  padding-top:50px;
   word-wrap:break-word;
+  background-image: url(img/index_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-img{
-  height: 200px;
+.jumbotron h1 {
+  line-height: 1;
+  color: inherit;
+  font-size: 8rem;
+  color: rgb(195, 196, 197);
 }
+p{
+  color: white;
+  font-size: 2rem;
+}
+.form-control{
+  height: 50px;
+  background-color: grey;
+
+}
+button, .btn {
+  color: red;
+  background-color: #1d1c1c;
+  border: 1px outset rgba(139, 8, 8, 0.87);
+  border-radius: 10px;
+}
+span{
+  color:  rgba(139, 8, 8, 0.87);
+}
+
+.login-container{
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.container .jumbotron {
+  border-radius: 15px;
+  /* background-color: rgb(73, 67, 67); */
+  border: 2px outset  rgba(139, 8, 8, 0.87);
+  background-image: url(img/green-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+.loginH1, .gameH1 , ul, label{
+  color: rgb(211, 199, 199);
+
+}
+
